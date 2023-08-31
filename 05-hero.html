@@ -6,10 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Carousel Component</title>
+    <title>Omnifood Hero Section</title>
     <style>
       * {
         margin: 0;
@@ -17,12 +17,94 @@
         box-sizing: border-box;
       }
 
-      body {
-        font-family: "Inter", sans-serif;
-        color: #343a40;
-        line-height: 1;
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1000px;
+      }
+
+      header {
+        height: 100vh;
+      }
+
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 9px;
+        display: inline-block;
+        padding: 16px 32px;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        padding: 96px 0;
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <!-- header: semantic element for the introduction of the website -->
+    <header>
+      <nav class="container">
+        <!--Logo -->
+        <div>LOGO</div>
+
+        <!-- Navigation Links -->
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div class="container">
+        <h1>A healthy meal delivered to your door, every single day</h1>
+        <p>
+          The smart 365-days-per-year food subscription that will make you eat
+          healthy again. Tailored to your personal tastes and nutritional needs
+        </p>
+        <a href="#" class="btn">Start eating well</a>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Some heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure libero
+          ratione nam tempore harum, eum, corrupti vitae atque pariatur maiores
+          quos consectetur reiciendis a voluptate esse facere. Vitae corporis
+          iure obcaecati fugiat sapiente aut officia voluptas, cumque
+          necessitatibus rerum ut cupiditate? Fugit fugiat ullam pariatur a
+          molestias necessitatibus ipsa ad culpa eveniet fuga assumenda
+          possimus, rerum, vitae unde, dicta vel.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
